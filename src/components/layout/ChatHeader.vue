@@ -101,7 +101,7 @@ function exportConversations() {
       </div>
       
       <div class="app-title">
-        <h1>MinimalChat</h1>
+        <h1>Aegis</h1>
       </div>
       
       <div class="header-actions">
@@ -123,7 +123,7 @@ function exportConversations() {
       </div>
       
       <div class="header-center">
-        <h1 class="app-title-mobile">MinimalChat</h1>
+        <h1 class="app-title-mobile">Aegis</h1>
       </div>
       
       <div class="header-right">

@@ -61,14 +61,14 @@ const formatTagScreenshots = [
     "sizes": "3832x2395",
     "type": "image/png",
     "form_factor": "wide",
-    "label": "Desktop Homescreen of MinimalChat"
+    "label": "Desktop Homescreen of Aegis"
   },
   {
     "src": "images/narrow-minimal-chat.png",
     "sizes": "860x1864",
     "type": "image/png",
     "form_factor": "narrow",
-    "label": "Mobile Homescreen of MinimalChat"
+    "label": "Mobile Homescreen of Aegis"
   }
 ];
 
@@ -177,8 +177,8 @@ export default defineConfig(async () => ({
         ],
       },
       manifest: {
-        name: 'MinimalChat',
-        short_name: 'MinimalChat',
+        name: 'Aegis',
+        short_name: 'Aegis',
         description: 'A lightweight yet powerful LLM chat application',
         theme_color: '#202124',
         background_color: "#202124",

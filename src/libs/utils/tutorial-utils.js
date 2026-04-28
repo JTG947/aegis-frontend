@@ -19,7 +19,7 @@ export async function runTutorialForSettings() {
         {
             popover: {
                 title: 'Settings Quick Guide',
-                description: 'Welcome to The MinimalChat Configuration Page! Follow this short guided tour to learn about the configuration experience.'
+                description: 'Welcome to The Aegis Configuration Page! Follow this short guided tour to learn about the configuration experience.'
             }
         },
         {
@@ -53,7 +53,7 @@ export async function runTutorialForSettings() {
             element: '.left-panel ul li:nth-child(1)',
             popover: {
                 title: 'General Configuration Settings',
-                description: 'The general configuration option houses settings and actions that are more MinimalChat specific.',
+                description: 'The general configuration option houses settings and actions that are more Aegis specific.',
                 side: "right",
                 align: 'start'
             }
@@ -140,7 +140,7 @@ export async function runTutortialForNewUser() {
     const hasShownUserTutorial = JSON.parse(localStorage.getItem('hasShownUserTutorial') || false);
 
     const mobileTutorialSteps = [
-        { popover: { title: 'MinimalChat Tutorial', description: 'Welcome to MinimalChat! Follow this quick guided tour to learn about the app. It highlights useful information, features, and gestures!' } },
+        { popover: { title: 'Aegis Tutorial', description: 'Welcome to Aegis! Follow this quick guided tour to learn about the app. It highlights useful information, features, and gestures!' } },
         { element: '.settings-btn', popover: { title: 'Configuration Page', description: 'Visit the configuration page to set up various LLM models and services!' } },
         { element: '#settings-dialog', popover: { title: 'Swipe Right', description: 'Access the Configuration page quickly by swiping right from the edge of the screen!', side: "top", align: 'start' } },
         { element: '#conversations-dialog', popover: { title: 'Swipe Left', description: 'Access the Conversations Management page quickly by swiping left from the edge of the screen!', side: "top", align: 'start' } },
@@ -154,7 +154,7 @@ export async function runTutortialForNewUser() {
     ];
 
     const desktopTutorialSteps = [
-        { popover: { title: 'MinimalChat Walkthrough', description: 'Welcome to MinimalChat! Follow this quick guided tour to learn about the app. It highlights useful information, features, and gestures!' } },
+        { popover: { title: 'Aegis Walkthrough', description: 'Welcome to Aegis! Follow this quick guided tour to learn about the app. It highlights useful information, features, and gestures!' } },
         { element: '#quick-select-model-selector', popover: { title: 'Quickly Change Models', description: 'In the desktop layout, you can quickly switch the model being used for requests.' } },
         { element: '.sidebar-conversations', popover: { title: 'Conversations Panel', description: 'This area displays saved conversations and actions for managing them.', side: "top", align: 'start' } },
         { element: '#conversation-0', popover: { title: 'Edit Conversation Titles', description: 'Double-click a saved conversation to activate edit mode and change the conversation title.', side: "top", align: 'start' } },

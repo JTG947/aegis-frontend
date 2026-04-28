@@ -6,7 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'MinimalChat',
+      name: 'Aegis',
       component: ChatLayout,
     },
   ],

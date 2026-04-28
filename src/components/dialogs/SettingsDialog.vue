@@ -323,7 +323,7 @@ onMounted(() => {
                                         <Github size="22" />
                                     </div>
                                     <div class="github-info">
-                                        <h4>Minimal Chat</h4>
+                                        <h4>Aegis</h4>
                                         <p>View source code on GitHub</p>
                                     </div>
                                 </div>
